@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth bg-[#030303]">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Visuals | AI Video Specialist</title>
+    <meta name="description" content="فيديوهات AI تسويقية تحول المشاهدات إلى مبيعات حقيقية بسرعة فائقة.">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            content: ["./**/*.{html,js}"],
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 16px;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            border: 0;
+        }
+        .video-card {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .video-card:hover {
+            transform: scale(1.04);
+            box-shadow: 0 25px 50px -12px rgb(16 185 129);
+        }
+    </style>
+</head>
+<body class="font-sans bg-[#030303] text-white">
+
+    <!-- Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-[#030303]/90 backdrop-blur-xl border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+            <div class="text-2xl font-bold">Ahmed <span class="font-light text-emerald-400">Visuals</span></div>
+            <a href="https://wa.me/YOUR_PHONE_NUMBER" target="_blank"
+               class="flex items-center gap-2 bg-emerald-500 hover:bg-emerald-600 px-6 py-3 rounded-full font-semibold transition-all hover:scale-105">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
+                </svg>
+                Chat on WhatsApp
+            </a>
+        </div>
+    </header>
+
+    <main class="pt-24">
+
+        <!-- Hero -->
+        <section class="max-w-6xl mx-auto px-6 py-20 text-center">
+            <h1 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
+                فيديوهات AI تحول المشاهدات<br>إلى <span class="text-emerald-400">مبيعات حقيقية</span>
+            </h1>
+            <p class="text-xl text-zinc-400 max-w-2xl mx-auto mb-12">
+                أصنع فيديوهات تسويقية بالذكاء الاصطناعي تجذب الانتباه وتزود مبيعاتك بسرعة فائقة.
+            </p>
+
+            <!-- Hero Video -->
+            <div class="max-w-4xl mx-auto rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
+                <iframe class="w-full aspect-video" 
+                        src="https://www.youtube.com/embed/l-eO_Y0A4aM" 
+                        title="Ahmed Visuals - AI Video Promo" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <!-- Selected Work -->
+        <section class="py-20 bg-[#0a0a0a]">
+            <div class="max-w-7xl mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center mb-4">Selected Work</h2>
+                <p class="text-zinc-400 text-center mb-12">نتائج حقيقية من فيديوهات AI حققت مبيعات ملموسة</p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Video Cards (6 cards) -->
+                    <!-- Card 1 -->
+                    <div class="video-card group bg-zinc-900 rounded-3xl overflow-hidden border border-zinc-800 hover:border-emerald-400">
+                        <div class="aspect-video">
+                            <iframe class="w-full h-full" src="https://www.youtube.com/embed/HK6y8DAPN_0" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="p-5">
+                            <h3 class="font-semibold">SaaS Product Launch</h3>
+                            <p class="text-emerald-400 text-sm">Generated $45K in pre-sales</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="video-card group bg-zinc-900 rounded-3xl overflow-hidden border border-zinc-800 hover:border-emerald-400">
+                        <div class="aspect-video">
+                            <iframe class="w-full h-full" src="https://www.youtube.com/embed/dqac2nOEXnY" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="p-5">
+                            <h3 class="font-semibold">E-Commerce Brand Anthem</h3>
+                            <p class="text-emerald-400 text-sm">-62% Acquisition Cost</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="video-card group bg-zinc-900 rounded-3xl overflow-hidden border border-zinc-800 hover:border-emerald-400">
+                        <div class="aspect-video">
+                            <iframe class="w-full h-full" src="https://www.youtube.com/embed/CSB5W_B_k5c" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="p-5">
+                            <h3 class="font-semibold">Luxury Real Estate</h3>
+                            <p class="text-emerald-400 text-sm">1.2M Organic Views</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="video-card group bg-zinc-900 rounded-3xl overflow-hidden border border-zinc-800 hover:border-emerald-400">
+                        <div class="aspect-video">
+                            <iframe class="w-full h-full" src="https://www.youtube.com/embed/2H8E4g8uXyI" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="p-5">
+                            <h3 class="font-semibold">Tech Hardware</h3>
+                            <p class="text-emerald-400 text-sm">Sold Out in 72 hours</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="video-card group bg-zinc-900 rounded-3xl overflow-hidden border border-zinc-800 hover:border-emerald-400">
+                        <div class="aspect-video">
+                            <iframe class="w-full h-full" src="https://www.youtube.com/embed/7b235sR4-Lg" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="p-5">
+                            <h3 class="font-semibold">App Explainer</h3>
+                            <p class="text-emerald-400 text-sm">3x Install Conversion</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="video-card group bg-zinc-900 rounded-3xl overflow-hidden border border-zinc-800 hover:border-emerald-400">
+                        <div class="aspect-video">
+                            <iframe class="w-full h-full" src="https://www.youtube.com/embed/Sq1QZB5baNw" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="p-5">
+                            <h3 class="font-semibold">B2B Lead Generation</h3>
+                            <p class="text-emerald-400 text-sm">12 Enterprise Deals Closed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="py-24 text-center bg-gradient-to-b from-transparent via-emerald-500/5 to-transparent">
+            <h2 class="text-5xl font-bold mb-6">جاهز تزود مبيعاتك؟</h2>
+            <p class="text-zinc-400 mb-10 max-w-md mx-auto">خلينا نناقش مشروعك ونشوف إزاي الفيديوهات الـ AI هتساعدك تحقق أرقام أعلى.</p>
+            <a href="https://wa.me/YOUR_PHONE_NUMBER" target="_blank" 
+               class="inline-flex items-center gap-3 bg-emerald-500 hover:bg-emerald-600 px-10 py-5 rounded-full text-xl font-semibold transition-all hover:scale-105">
+                Chat on WhatsApp
+            </a>
+        </section>
+    </main>
+</body>
+</html>
